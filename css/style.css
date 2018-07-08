@@ -2,14 +2,25 @@ header{
 	
 }
 
+#Perros:hover, #Home:Hover,#Gatos:Hover{
+background-color: #f29d99;
+color: #ffffff;
+
+}
+
 .page-header{
 	margin-bottom:0px;
 	margin-top: 0.5em;
 	
 }
 
+.icon{
+	height: 2em;
+	margin-top: 0;
+	margin-bottom: 0;
+}
 
-.navbar-default #Perros:Active,#Perros:Hover {
+.navbar-default #Perros:Active {
 	color: #b57674;
 
 
