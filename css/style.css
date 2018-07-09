@@ -1,3 +1,7 @@
+main{
+
+
+}
 header{
 	
 }
@@ -20,14 +24,19 @@ color: #ffffff;
 	margin-bottom: 0;
 }
 
-.navbar-default #Perros:Active , #Home:Active,#Gatos:Active {
-	color: #b57674;
-
+.navbar-default #Perros:Active ,.navbar-default #Home:Active,.navbar-default #Gatos:Active {
+	color: #ffffff;
+	background-color: #f29d99;
 
 }
 
+.navbar-default{
+	background-color: #f29d99;
+}
+
+
 #ShopName{
-color: #b57674;
+color: #ffffff;
 }
 
 main{
