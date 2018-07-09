@@ -39,6 +39,28 @@ color: #ffffff;
 color: #ffffff;
 }
 
+#Carrousel1{
+	margin-bottom: 1em;
+}
+
+
+
 main{
 	margin:0 auto;
+}
+
+
+
+.row [class*='col-']:not(.hid) {
+      background-color: #ffeeee;
+      background-clip: content-box;
+      min-height: 400px;
+      
+      
+
+}
+
+.shopitem{
+padding: 20px;
+
 }
