@@ -20,8 +20,17 @@ color: #ffffff;
 	margin-bottom: 0;
 }
 
-.navbar-default #Perros:Active {
+.navbar-default #Perros:Active , #Home:Active,#Gatos:Active {
 	color: #b57674;
 
 
+}
+
+#ShopName{
+color: #b57674;
+}
+
+main{
+	width: 80%;
+	margin:0 auto;
 }
