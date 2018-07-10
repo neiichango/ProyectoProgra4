@@ -84,6 +84,9 @@ background-color: #ffeeee;
     height: 23em;
   
 }
+.shopitemimg{
+	size: 100%;
+}
 
 .whitebackground{
 	background-color: #ffffff;
