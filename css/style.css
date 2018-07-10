@@ -51,10 +51,9 @@ main{
 
 
 
-.row [class*='col-']:not(.hid) {
-      background-color: #ffeeee;
-      background-clip: content-box;
-      min-height: 400px;
+.shoppingitemRow {
+   margin: 0;
+padding: 0;
       
       
 
@@ -62,5 +61,9 @@ main{
 
 .shopitem{
 padding: 20px;
-
+background-color: #ffeeee;
+      background-clip: content-box;
+      min-height: 400px;
 }
+
+
