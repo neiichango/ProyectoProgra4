@@ -72,7 +72,7 @@ background-color: #ffeeee;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 5em;
+    font-size: 4em;
     color: #976260;
     z-index: 99;
 }
@@ -81,6 +81,7 @@ background-color: #ffeeee;
     position: relative;
     text-align: center;
     color: white;
+    height: 23em;
   
 }
 
