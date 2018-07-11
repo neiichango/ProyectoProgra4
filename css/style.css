@@ -61,7 +61,7 @@ padding: 0;
 
 .shopitem{
 padding: 20px;
-background-color: #ffeeee;
+/*background-color: #ffeeee;*/
       background-clip: content-box;
       min-height: 1em;
 }
@@ -75,7 +75,8 @@ background-color: #ffeeee;
     font-size: 3em;
     color: #976260;
     z-index: 99;
-    opacity: 0.8;
+    opacity: 1;
+    font-family: "courier" ;
 }
 
 .shopitem {
@@ -83,11 +84,15 @@ background-color: #ffeeee;
     text-align: center;
     color: white;
     height: 23em;
+     
   
 }
 .shopitemimg{
 	height: 100%;
 	width: 100%;
+	border: 2px solid #f29d99;
+     border-radius: 5px;
+     padding: 1em;
 }
 
 .whitebackground{
@@ -99,4 +104,11 @@ background-color: #ffeeee;
 	position: absolute;
     top: 0%;
     left: 0%;
+}
+
+main a:hover .shopitemimg{
+background-color: #f29d99;
+
+
+
 }
