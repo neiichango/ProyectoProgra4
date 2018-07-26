@@ -20,11 +20,12 @@ min-height: 16.5em;
 #logo{
 width: 10em;	
 padding: 0.5em;
-width: 10em;
 }
 
 #logofooter{
 	float: right;
+	width: 10em;	
+
 }
 
 #Perros:hover, #Home:Hover,#Gatos:Hover{
@@ -177,6 +178,9 @@ position: relative;
 
 .listnostyle{
 list-style: none;
+border:0;
+margin:0;
+padding: 0;
 }
 
 .textogris{
