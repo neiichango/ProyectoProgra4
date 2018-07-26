@@ -3,7 +3,8 @@ main{
 
 }
 header{
-	
+padding: 0;
+width: 100%;
 }
 
 footer{
@@ -18,8 +19,9 @@ min-height: 16.5em;
 
 
 #logo{
-width: 10em;	
-padding: 0.5em;
+width: 8em;	
+padding: 0;
+margin:0;
 }
 
 #logofooter{
