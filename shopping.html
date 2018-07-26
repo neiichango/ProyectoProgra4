@@ -4,12 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Neika Petshop</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="css/normalize.css" rel="stylesheet"> 
+    <link href="css/bootstrap.min.css" rel="stylesheet"> 
+    <link href="css/style.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,29 +20,128 @@
     <![endif]-->
   </head>
   <body>
+    <!-- Page HEADER -->
 
-  	<header>
-  		<img src="" alt="">
+    <header  class="page-header container text-right" style="width: 80%">
+      
+     <img class="col-md-2 col-sm-2 col-xs-3"  src="images/neikasincirculo.png" alt="logo de neika petshop" id="logo">
+      <a href=""><img src="images\user.png" alt="" class="icon"></a>
+      <a href=""><img src="images\shopping-cart.png" alt="" class="icon"></a>
+      <a href=""><img src="images\facebook.png" alt="" class="icon"></a>
+      <a href=""><img src="images\instagram.png" alt="" class="icon"></a>
+        
+    </header>
+<!-- NAV MENU -->
 
-  	</header>
-<nav class="navbar navbar-default">
-    <div class="container text-center">
-        <div class="navbar-header">
-            <a class="navbar-brand" href="#">Neika</a>
-        </div>
-        <div id="navbar" class="navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="#">Perros</a></li>
-                <li><a href="#">Gatos</a></li>
-                
-            </ul>
-        </div>
+<nav class="navbar navbar-default  text-center " style="width: 100%">
+  <div class="container " style="width: 75%">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" id="ShopName" href="#">Neika</a>
     </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+    <li><a href="index.html" id="Home" class="item active">Home</a></li>        
+        <li><a href="shopping.html" id="Perros">Perros</a></li>
+        <li><a href="shopping.html" id="Gatos">Gatos</a></li>
+      </ul>
+    
+    </div>
+  </div>
 </nav>
-<footer>
-	
-</footer>
 
+
+   <main  class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-12">
+<!-- SHOP ITEMS -->
+ <div class="row shoppingitemRow  col-md-12  col-sm-12  col-xs-12 ">
+     
+
+
+  <figure class="border border-secondary col-md-3  col-sm-4 col-xs-12 itemproduct " >
+ <a href="#"><img class="itemimg"  src="images/perrovestido.jpg" alt="perro con vestido" style="width:100%;"></a> 
+  <figcaption class="ItemNombre"> <a href="#">Vestido de Perro</a></figcaption>
+  <p class="textogris">c 3500</p>
+</figure>
+  <figure class="border border-secondary col-md-3  col-sm-4 col-xs-12  itemproduct " >
+  
+          <img class="itemimg"  src="images/perrovestido.jpg" alt="perro con vestido" style="width:100%;">
+  <figcaption class="ItemNombre"> <a href="#">Vestido de Perro</a></figcaption>
+  <p class="textogris">c 3500</p>
+</figure>
+
+  <figure class="border border-secondary col-md-3  col-sm-4 col-xs-12  itemproduct " >
+  <img class="itemimg"  src="images/perrocamisa.jpg" alt="perro con vestido" style="width:100%;">
+  <figcaption class="ItemNombre"> <a href="#">Camisa de Perro</a></figcaption>
+  <p class="textogris">c 3500</p>
+</figure>
+
+  <figure class="border border-secondary col-md-3  col-sm-4 col-xs-12  itemproduct " >
+  <img class="itemimg"  src="images/acceperro.jpg" alt="perro con vestido" style="width:100%;">
+  <figcaption class="ItemNombre"> <a href="#">Accesorio Perro</a></figcaption>
+  <p class="textogris">c 3500</p>
+</figure>
+
+
+  <figure class="border border-secondary col-md-3  col-sm-4 col-xs-12  itemproduct " >
+  <img class="itemimg"  src="images/perrovestido.jpg" alt="perro con vestido" style="width:100%;">
+  <figcaption class="ItemNombre"> <a href="#">Vestido de Perro</a></figcaption>
+  <p class="textogris">c 3500</p>
+</figure>
+  <figure class="border border-secondary col-md-3  col-sm-4 col-xs-12  itemproduct " >
+  
+          <img class="itemimg"  src="images/perrovestido.jpg" alt="perro con vestido" style="width:100%;">
+  <figcaption class="ItemNombre"> <a href="#">Vestido de Perro</a></figcaption>
+  <p class="textogris">c 3500</p>
+</figure>
+
+  <figure class="border border-secondary col-md-3  col-sm-4 col-xs-12  itemproduct " >
+  <img class="itemimg"  src="images/perrocamisa.jpg" alt="perro con vestido" style="width:100%;">
+  <figcaption class="ItemNombre"> <a href="#">Camisa de Perro</a></figcaption>
+  <p class="textogris">c 3500</p>
+</figure>
+
+  <figure class="border border-secondary col-md-3  col-sm-4 col-xs-12  itemproduct " >
+  <img class="itemimg"  src="images/acceperro.jpg" alt="perro con vestido" style="width:100%;">
+  <figcaption class="ItemNombre"> <a href="#">Accesorio Perro</a></figcaption>
+  <p class="textogris">c 3500</p>
+</figure>
+
+
+
+    </div> 
+
+</main>
+
+<footer style="width: 100%">
+  <div class="col-md-10 col-md-offset-1 col-sm-10  col-xs-12">
+  <address class="col-md-6 col-sm-6 col-xs-6">
+  <p class="textoblanco"> Contactenos!</p>
+  <ul class="listnostyle">
+    <list class="textoblanco"><img src="images/email.png" alt="" class="icon"> neikapetshop@xx.com</li>
+    <li  class="textoblanco"><img src="images/phone.png" alt="" class="icon"> 60140962</li>
+    <li  class="textoblanco">Alajuela, Costa Rica</li>
+  </ul>
+  <p  class="textoblanco"> Revisa nuestros <a href="#">FAQs</a></p>
+</address>
+
+<figure class="col-md-6 col-sm-6 col-xs-6 text-right">
+  
+      
+      <a href=""><img src="images\user.png" alt="" class="icon"></a>
+      <a href=""><img src="images\shopping-cart.png" alt="" class="icon"></a>
+      <a href=""><img src="images\facebook.png" alt="" class="icon"></a>
+      <a href=""><img src="images\instagram.png" alt="" class="icon"></a><br>
+      <img class="col-md-3 col-sm-3 col-xs-3" src="images/neikasincirculo.png" alt="logo de neika petshop" id="logofooter" >
+        
+</figure>
+
+
+</div>
+</footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

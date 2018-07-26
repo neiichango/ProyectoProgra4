@@ -6,8 +6,30 @@ header{
 	
 }
 
+footer{
+	margin-top: 1em;
+	clear: both;
+	padding-top: 2em;
+
+background:linear-gradient(#ffffff,#f2d4d2, #f2b8b5,#f29d99);
+min-height: 16em;
+max-height: 30em;
+}
+
+
+
+#logo{
+width: 10em;	
+padding: 0.5em;
+width: 10em;
+}
+
+#logofooter{
+	float: right;
+}
+
 #Perros:hover, #Home:Hover,#Gatos:Hover{
-background-color: #f29d99;
+background:linear-gradient(#f2b8b5, #f2b8b5,#f29d99);
 color: #ffffff;
 
 }
@@ -18,25 +40,30 @@ color: #ffffff;
 	
 }
 
+
+
 .icon{
 	height: 2em;
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: 1em;
 }
 
 .navbar-default #Perros:Active ,.navbar-default #Home:Active,.navbar-default #Gatos:Active {
 	color: #ffffff;
-	background-color: #f29d99;
-
+	 background: #f29d99;
 }
 
+
+
+
 .navbar-default{
-	background-color: #f29d99;
+	background: #f2b8b5
 }
 
 
 #ShopName{
 color: #ffffff;
+
 }
 
 #Carrousel1{
@@ -47,6 +74,7 @@ color: #ffffff;
 
 main{
 	margin:0 auto;
+	margin-bottom: 2em;
 }
 
 
@@ -61,7 +89,10 @@ padding: 0;
 
 .shopitem{
 padding: 20px;
-/*background-color: #ffeeee;*/
+position: relative;
+    text-align: center;
+    color: white;
+    height: 23em;
       background-clip: content-box;
       min-height: 1em;
 }
@@ -79,14 +110,7 @@ padding: 20px;
     font-family: "courier" ;
 }
 
-.shopitem {
-    position: relative;
-    text-align: center;
-    color: white;
-    height: 23em;
-     
-  
-}
+
 .shopitemimg{
 	height: 100%;
 	width: 100%;
@@ -111,4 +135,51 @@ background-color: #f29d99;
 
 
 
+}
+
+
+
+
+
+
+
+
+.itemproduct{
+padding: 20px;
+position: relative;
+    text-align: center;
+    color: white;
+      background-clip: content-box;
+      min-height: 1em;
+      border: 1px solid #f2b8b5;
+    /* border-radius: 5px;*/
+     padding: 1em;
+     border-collapse: collapse;
+}
+
+
+.ItemNombre {
+    position: relative;
+   
+  /*  transform: translate(-50%, -50%);*/
+   /* font-size: 3em;*/
+    color: #976260;
+    z-index: 99;
+    opacity: 1;
+    font-family: "courier" ;
+}
+
+
+.itemimg{
+	height: 100%;
+	width: 100%;
+	
+}
+
+.listnostyle{
+list-style: none;
+}
+
+.textogris{
+	color: #757575;
 }
